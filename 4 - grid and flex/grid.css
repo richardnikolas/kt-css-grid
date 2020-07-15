@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+body {
+  margin: 30px;
+  font-size: 14px;
+  font-family: 'Roboto';
+  background: rgb(19, 19, 19);
+}
+
+:root {
+  --green: #67c45a;
+  --red: #c95151;
+  --blue: #4b9bd1;
+  --pink: #eeaeef;
+}
+
+container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffd3c6;
+  padding: 1rem;
+}
+
+.visual {
+  height: 100px;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.pink {
+  background: var(--pink);
+}
+
+.green {
+  background: var(--green);
+}
+
+.blue {
+  background: var(--blue);
+}
